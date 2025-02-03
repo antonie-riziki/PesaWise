@@ -1,2 +1,2 @@
-# PesaWise
-Leveraging the power of AI and Machine Learning to build a financial forecast advicer, planner and assistance to foresee and foreshadow financial decisions 
+# Stocks-Trading
+Implementing machine learning algorithms to extract live trading prices of favorite companies, alongside returning the regression dependencies. On the other hand I applied datetime forecast to predict future prices of the stocks. 
