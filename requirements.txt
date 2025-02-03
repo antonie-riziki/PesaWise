@@ -4,7 +4,7 @@ streamlit
 jsonlib-python3
 plotly
 matplotlib
-io
+python_io
 requests
 datetime
 streamlit-lottie
