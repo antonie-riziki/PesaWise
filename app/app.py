@@ -87,7 +87,7 @@ fin3_lottie = load_lottiefile('./source/fin3.json')
 
 if selected == 'Assistant':
 	
-	st.image('../source/img1.webp', width = 400)
+	st.image('./source/img1.webp', width = 400)
 	st.header('Welcome to PesaWise Virtual Assistant')
 	st.subheader('Your financial advicer')
 	st.markdown("""
@@ -466,7 +466,7 @@ if selected == 'Loans & Savings':
 			height=250,
 			)
 		st.write('**Money-festing** :smiley:')
-	st.image('D:/Web_Development/Streamlit Deployment Projects/Dreamers Vault/source/Interest Payout.png')
+	st.image('./source/Interest Payout.png')
 	st.write('''
 			### Loan Calculator
 
@@ -608,7 +608,7 @@ if selected == 'Stocks':
 	local_data = st.container()
 
 	with header:
-		st.image('../source/img7.jpg')
+		st.image('./source/img7.jpg')
 		st.title('GLOBAL STOCKS MARKET DATA')
 		st.write('**What do stocks mean?**')
 		st.write('A stock represents a share in the ownership of a company, including a claim on the companys earnings and assets. As such, stockholders are partial owners of the company. When the value of the business rises or falls, so does the value of the stock.')
@@ -618,10 +618,10 @@ if selected == 'Stocks':
 		col1, col2 = st.columns(2)
 		
 		with col1:
-			st.image('../source/img6.png', width=350)
+			st.image('./source/img6.png', width=350)
 
 		with col2:
-			st.image('../source/img4.webp', width=350)
+			st.image('./source/img4.webp', width=350)
 
 		
 		st.write("<h3 style='text-align: center; color: white;'>One place for your portfolios, <br>metrics and more<h3>", unsafe_allow_html=True)
@@ -630,7 +630,7 @@ if selected == 'Stocks':
 		st.write('sorry I wasnt listening.....I was thinking about TRADING')
 
 
-		df = pd.read_csv('../source/big_tech_stock_prices.csv')
+		df = pd.read_csv('./source/big_tech_stock_prices.csv')
 		st.dataframe(df.head())
 
 		# Data Cleaning
@@ -757,7 +757,7 @@ if selected == 'Stocks':
 			with open(filepath, 'r') as file:
 				return json.load(file)
 		
-		animation_1 = load_lottiefile('../source/stocks1.json')
+		animation_1 = load_lottiefile('./source/stocks1.json')
 
 		st_lottie(animation_1,
 				speed=1,
@@ -775,7 +775,7 @@ if selected == 'Stocks':
 
 if selected == 'Trading Investments':
 
-# 	st.video('../source/stock_animation.mp4', format='mp4')
+# 	st.video('./source/stock_animation.mp4', format='mp4')
 
 # 	import yfinance as yf
 
