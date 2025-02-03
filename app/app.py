@@ -80,9 +80,9 @@ def load_lottiefile(filepath: str):
 	with open(filepath, 'r') as file:
 		return json.load(file)
 
-fin_lottie = load_lottiefile('D:/Web_Development/Streamlit Deployment Projects/Dreamers Vault/animation/fin1.json')
-fin2_lottie = load_lottiefile('D:/Web_Development/Streamlit Deployment Projects/Dreamers Vault/animation/fin2.json')
-fin3_lottie = load_lottiefile('D:/Web_Development/Streamlit Deployment Projects/Dreamers Vault/animation/fin3.json')
+fin_lottie = load_lottiefile('./source/fin1.json')
+fin2_lottie = load_lottiefile('./source/fin2.json')
+fin3_lottie = load_lottiefile('./source/fin3.json')
 
 
 if selected == 'Assistant':
