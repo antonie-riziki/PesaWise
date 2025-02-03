@@ -10,6 +10,7 @@ datetime
 streamlit-lottie
 streamlit-option-menu
 python-dateutil
+streamlit-folium
 streamlit-chat
 africastalking
 yfinance
